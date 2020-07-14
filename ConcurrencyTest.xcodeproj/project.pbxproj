@@ -13,6 +13,7 @@
 		ED0C1A9E24BCCC6A0061A9F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0C1A9D24BCCC6A0061A9F0 /* Assets.xcassets */; };
 		ED0C1AA124BCCC6A0061A9F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0C1AA024BCCC6A0061A9F0 /* Preview Assets.xcassets */; };
 		ED0C1AA424BCCC6A0061A9F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0C1AA224BCCC6A0061A9F0 /* LaunchScreen.storyboard */; };
+		ED0C1AAC24BD64EE0061A9F0 /* CalculatePrimeOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C1AAB24BD64EE0061A9F0 /* CalculatePrimeOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ED0C1AA024BCCC6A0061A9F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED0C1AA324BCCC6A0061A9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED0C1AA524BCCC6A0061A9F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0C1AAB24BD64EE0061A9F0 /* CalculatePrimeOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatePrimeOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				ED0C1A9724BCCC650061A9F0 /* AppDelegate.swift */,
 				ED0C1A9924BCCC650061A9F0 /* SceneDelegate.swift */,
 				ED0C1A9B24BCCC650061A9F0 /* ContentView.swift */,
+				ED0C1AAB24BD64EE0061A9F0 /* CalculatePrimeOperation.swift */,
 				ED0C1A9D24BCCC6A0061A9F0 /* Assets.xcassets */,
 				ED0C1AA224BCCC6A0061A9F0 /* LaunchScreen.storyboard */,
 				ED0C1AA524BCCC6A0061A9F0 /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0C1AAC24BD64EE0061A9F0 /* CalculatePrimeOperation.swift in Sources */,
 				ED0C1A9824BCCC650061A9F0 /* AppDelegate.swift in Sources */,
 				ED0C1A9A24BCCC650061A9F0 /* SceneDelegate.swift in Sources */,
 				ED0C1A9C24BCCC650061A9F0 /* ContentView.swift in Sources */,
