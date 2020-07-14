@@ -24,14 +24,22 @@ struct ContentView: View {
     
     func calculatePrimes() {
         
-        // 1 OPERATION QUEUE
-        let queue = OperationQueue()
-        queue.addOperation {
+        // 2 GRAND CENTRAL DISPATCH
+        DispatchQueue.global(qos: .userInitiated).async {
             for number in 0...1_000_000 {
                 let isPrimeNumber = self.isPrime(number: number)
                 print("\(number) is prime: \(isPrimeNumber)")
             }
         }
+        
+        // 1 OPERATION QUEUE
+        //        let queue = OperationQueue()
+        //        queue.addOperation {
+        //            for number in 0...1_000_000 {
+        //                let isPrimeNumber = self.isPrime(number: number)
+        //                print("\(number) is prime: \(isPrimeNumber)")
+        //            }
+        //        }
         
     }
     
